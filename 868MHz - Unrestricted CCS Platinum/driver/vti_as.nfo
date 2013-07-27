@@ -1,0 +1,104 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern void as_get_data() is called from 0 sites in this file.
+    It appears to be inlineable (size = 22 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	as_read_register() (3 times)
+
+extern void as_init() is called from 0 sites in this file.
+    It appears to be inlineable (size = 28 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern unsigned char as_read_register() is called from 3 sites in this file.
+    It appears to be inlineable (size = 79 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void as_start() is called from 0 sites in this file.
+    It appears to be inlineable (size = 83 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	as_write_register() (4 times)
+	Timer0_A4_Delay() (2 times)
+
+extern void as_stop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 28 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern unsigned char as_write_register() is called from 4 sites in this file.
+    It appears to be inlineable (size = 83 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+
+These functions may be recursive:
+	as_start()
+
+These external functions are called but not defined here:
+	Timer0_A4_Delay()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern unsigned char as_write_register() is called from 4 sites in this file.
+    It appears to be inlineable (size = 83 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void as_stop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 28 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void as_start() is called from 0 sites in this file.
+    It appears to be inlineable (size = 83 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	as_write_register() (4 times)
+
+==============================================================================
+
+extern unsigned char as_read_register() is called from 3 sites in this file.
+    It appears to be inlineable (size = 79 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void as_init() is called from 0 sites in this file.
+    It appears to be inlineable (size = 28 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void as_get_data() is called from 0 sites in this file.
+    It appears to be inlineable (size = 22 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	as_read_register() (3 times)
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

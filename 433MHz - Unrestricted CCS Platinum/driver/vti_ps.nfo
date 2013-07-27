@@ -1,0 +1,210 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern int conv_pa_to_meter() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void init_pressure_table() is called from 0 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern unsigned long ps_get_pa() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_read_register() (2 times)
+
+extern unsigned ps_get_temp() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_read_register() (1 times)
+
+extern void ps_init() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_read_register() (2 times)
+	ps_write_register() (1 times)
+	Timer0_A4_Delay() (2 times)
+
+extern unsigned ps_read_register() is called from 5 sites in this file.
+    It appears to be inlineable (size = 55 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_twi_read() (3 times)
+	ps_twi_write() (3 times)
+	ps_twi_sda() (6 times)
+
+extern void ps_start() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_write_register() (1 times)
+
+extern void ps_stop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_write_register() (1 times)
+
+extern unsigned char ps_twi_read() is called from 3 sites in this file.
+    It appears to be inlineable (size = 85 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (4 times)
+
+extern unsigned char ps_twi_sda() is called from 11 sites in this file.
+    It appears to be inlineable (size = 145 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (13 times)
+
+extern void ps_twi_write() is called from 6 sites in this file.
+    It appears to be inlineable (size = 63 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (2 times)
+
+extern unsigned char ps_write_register() is called from 3 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_twi_write() (3 times)
+	ps_twi_sda() (5 times)
+
+extern void twi_delay() is called from 19 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+extern void update_pressure_table() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+
+These functions may be recursive:
+	ps_init()
+
+These external functions are called but not defined here:
+	Timer0_A4_Delay()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void update_pressure_table() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void twi_delay() is called from 19 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern unsigned char ps_twi_sda() is called from 11 sites in this file.
+    It appears to be inlineable (size = 145 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (13 times)
+
+==============================================================================
+
+extern void ps_twi_write() is called from 6 sites in this file.
+    It appears to be inlineable (size = 63 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (2 times)
+
+==============================================================================
+
+extern unsigned char ps_write_register() is called from 3 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_twi_sda() (5 times)
+	ps_twi_write() (3 times)
+
+==============================================================================
+
+extern unsigned char ps_twi_read() is called from 3 sites in this file.
+    It appears to be inlineable (size = 85 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	twi_delay() (4 times)
+
+==============================================================================
+
+extern void ps_stop() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_write_register() (1 times)
+
+==============================================================================
+
+extern void ps_start() is called from 0 sites in this file.
+    It appears to be inlineable (size = 4 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_write_register() (1 times)
+
+==============================================================================
+
+extern unsigned ps_read_register() is called from 5 sites in this file.
+    It appears to be inlineable (size = 55 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_twi_sda() (6 times)
+	ps_twi_write() (3 times)
+	ps_twi_read() (3 times)
+
+==============================================================================
+
+extern void ps_init() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_write_register() (1 times)
+	ps_read_register() (2 times)
+
+==============================================================================
+
+extern unsigned ps_get_temp() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_read_register() (1 times)
+
+==============================================================================
+
+extern unsigned long ps_get_pa() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	ps_read_register() (2 times)
+
+==============================================================================
+
+extern void init_pressure_table() is called from 0 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern int conv_pa_to_meter() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

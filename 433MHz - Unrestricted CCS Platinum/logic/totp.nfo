@@ -1,0 +1,99 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern void compute_totp() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	hmac_sha1() (1 times)
+
+extern void display_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 104 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	display_chars() (4 times)
+	int_to_array() (2 times)
+	clear_line() (3 times)
+	reset_totp() (1 times)
+	compute_totp() (1 times)
+
+extern void reset_totp() is called from 1 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	base32_decode() (1 times)
+
+extern void set_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	mktime() (1 times)
+
+extern void tick_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+
+These functions may be recursive:
+	display_totp()
+	compute_totp()
+	reset_totp()
+
+These external functions are called but not defined here:
+	mktime()
+	base32_decode()
+	clear_line()
+	int_to_array()
+	display_chars()
+	hmac_sha1()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void tick_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 25 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void set_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 53 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void reset_totp() is called from 1 sites in this file.
+    It appears to be inlineable (size = 18 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void compute_totp() is called from 1 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+
+==============================================================================
+
+extern void display_totp() is called from 0 sites in this file.
+    It appears to be inlineable (size = 104 units)
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	compute_totp() (1 times)
+	reset_totp() (1 times)
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

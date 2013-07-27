@@ -1,0 +1,39 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern void hmac_sha1() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	memcpy() (1 times)
+	memset() (5 times)
+	sha1_final() (3 times)
+	sha1_update() (5 times)
+	sha1_init() (3 times)
+
+
+These functions may be recursive:
+	hmac_sha1()
+
+These external functions are called but not defined here:
+	memset()
+	memcpy()
+	sha1_init()
+	sha1_update()
+	sha1_final()
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern void hmac_sha1() is called from 0 sites in this file.
+    It has 3 non-trivial scope blocks nested 3 deep.
+    It calls these functions:
+	<NONE>
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==

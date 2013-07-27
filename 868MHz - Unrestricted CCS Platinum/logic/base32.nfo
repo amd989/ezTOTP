@@ -1,0 +1,61 @@
+MSP430 C/C++ Optimizer                  v4.1.1
+Build Number 1MF4S-KDADEMDK-RTARQ-WAQ-ZACIF_U_R_R
+
+		======File-level Analysis Summary======
+
+
+extern int base32_decode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 132 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+
+extern int base32_encode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 89 units)
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	<NONE>
+
+
+
+		======= End file-level Analysis =======
+
+
+==============================================================================
+
+extern int base32_encode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 89 units)
+    It has 5 non-trivial scope blocks nested 5 deep.
+    It calls these functions:
+	<NONE>
+
+ADVICE: In function base32_encode() in ../logic/base32.c
+	in the 'while' loop with loop variable 'count' at lines ../logic/base32.c:77-92
+	for the statement buffer = buffer*256|data[next]; at line 80
+	and the statement result[count] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"[index]; at line 91
+
+	Consider declaring 'data' as const unsigned char * const restrict data
+	or declaring 'result' as  unsigned char * const restrict result
+	to assert that 'data' in the address of data[next];
+	and            'result' in the address of result[count];
+	do not access the same object in memory.
+
+ADVICE: In function base32_encode() in ../logic/base32.c
+	in the 'while' loop with loop variable 'count' at lines ../logic/base32.c:77-92
+	for the statement result[count] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"[index]; at line 91
+
+	Consider declaring 'result' as unsigned char * const restrict result
+	to assert that lvalues result[count];
+	and                    "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567"[index];
+	do not access the same object in memory.
+
+==============================================================================
+
+extern int base32_decode() is called from 0 sites in this file.
+    It appears to be inlineable (size = 132 units)
+    It has 4 non-trivial scope blocks nested 4 deep.
+    It calls these functions:
+	<NONE>
+<<NULL MIX DOMAIN>>
+
+== END OF INFO OUTPUT==
