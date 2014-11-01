@@ -8,6 +8,9 @@ Implemented using version v1.6 (21.11.2010) of Chronos software by TI.
 
 This is a work in progress and a lot of improvements can be made. I hope it is of use to you
 
+[Vine of it working](https://vine.co/v/hAggeXBuhUJ)
+
+
 Usage
 -----
 Google has decided to use 32 byte lenght keys instead of 16.
