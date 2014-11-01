@@ -59,23 +59,23 @@ Initiative for Open Authentication (OATH), www.openauthentication.org.
 
 Internet Engineering Task Force (IETF), www.ietf.org.
 
-D. M’Raihi, et al, “TOTP: Time-Based One-Time Password Algorithm,” IETF RFC 6238, 2011.
+D. Mâ€™Raihi, et al, â€œTOTP: Time-Based One-Time Password Algorithm,â€ IETF RFC 6238, 2011.
 
-—, “HOTP: An HMAC-Based One-Time Password Algorithm,” IETF RFC 4226, 2005.
+â€”, â€œHOTP: An HMAC-Based One-Time Password Algorithm,â€ IETF RFC 4226, 2005.
 
 OATH Toolkit, www.nongnu.org/oath-toolkit.
 
-K. Schaffer, “Are Password Requirements Too Difficult?,” IEEE Computer Magazine, 2011.
+K. Schaffer, â€œAre Password Requirements Too Difficult?,â€ IEEE Computer Magazine, 2011.
 
-S. Sengupta, “Logging in With a Touch or a Phrase (Anything but a Password),” New York Times, 2011.
+S. Sengupta, â€œLogging in With a Touch or a Phrase (Anything but a Password),â€ New York Times, 2011.
 
 Sources
 -------
 
-IAR Embedded Workbench – IAR Systems
+IAR Embedded Workbench â€“ IAR Systems
 http://www.iar.com/
 
-eZ430-Chronos Wireless development system and Code Composer Studio (CCStudio) IDE – Texas Instruments, Inc.
+eZ430-Chronos Wireless development system and Code Composer Studio (CCStudio) IDE â€“ Texas Instruments, Inc.
 http://www.ti.com/
 
 										
